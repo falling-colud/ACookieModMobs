@@ -25,5 +25,6 @@ public class AcookiegodmodanimalsMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing AcookiegodmodanimalsMod");
 
+		GeckoLib.initialize();
 	}
 }
